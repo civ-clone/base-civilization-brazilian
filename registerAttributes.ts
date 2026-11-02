@@ -5,7 +5,7 @@ import { instance as attributeRegistryInstance } from '@civ-clone/core-civilizat
 Object.entries({
   people: 'Brazilian',
   nation: 'Brazil',
-  colors: ['#00A6A6', '#FFDF00'],
+  colors: ['#00A6A6', '#002776'],
 }).forEach(([name, value]: [string, any]): void =>
   attributeRegistryInstance.register(new Attribute(Brazilian, name, value))
 );
